@@ -41,8 +41,12 @@ def get_html_files(base_path, branch_label, chapters_meta):
         html_files_sorted = sorted(html_files, key=extract_number)
         if html_files_sorted:
             gallery_base = extract_gallery_base(folder)
-            thumb_path = f"gallery_compress/{gallery_base}.webp" if gallery_base else None  # 修改为 webp
-            if thumb_path and not os.path.isfile(os.path.join(PUBLISH_DIR, thumb_path)):
+            # 只用 webp 格式和 gallery_compress 目录
+            if gallery_base:
+                thumb_path = f"gallery_compress/{gallery_base}.webp"
+                if not os.path.isfile(os.path.join(PUBLISH_DIR, thumb_path)):
+                    thumb_path = None
+            else:
                 thumb_path = None
             for fname in html_files_sorted:
                 rel_path = os.path.relpath(os.path.join(folder_path, fname), PUBLISH_DIR)
