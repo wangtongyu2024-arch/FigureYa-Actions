@@ -328,18 +328,18 @@
     "thumb": "gallery_compress/FigureYa63.webp"
   },
   {
-    "id": "main_FigureYa63pubmedMiningV2_output_friends",
-    "title": "FigureYa63pubmedMiningV2/output_friends.html",
-    "html": "FigureYa63pubmedMiningV2/output_friends.html",
-    "text": "texts/main_FigureYa63pubmedMiningV2_output_friends.txt",
-    "folder": "FigureYa63pubmedMiningV2",
-    "thumb": "gallery_compress/FigureYa63.webp"
-  },
-  {
     "id": "main_FigureYa63pubmedMiningV2_output_paper",
     "title": "FigureYa63pubmedMiningV2/output_paper.html",
     "html": "FigureYa63pubmedMiningV2/output_paper.html",
     "text": "texts/main_FigureYa63pubmedMiningV2_output_paper.txt",
+    "folder": "FigureYa63pubmedMiningV2",
+    "thumb": "gallery_compress/FigureYa63.webp"
+  },
+  {
+    "id": "main_FigureYa63pubmedMiningV2_output_friends",
+    "title": "FigureYa63pubmedMiningV2/output_friends.html",
+    "html": "FigureYa63pubmedMiningV2/output_friends.html",
+    "text": "texts/main_FigureYa63pubmedMiningV2_output_friends.txt",
     "folder": "FigureYa63pubmedMiningV2",
     "thumb": "gallery_compress/FigureYa63.webp"
   },
