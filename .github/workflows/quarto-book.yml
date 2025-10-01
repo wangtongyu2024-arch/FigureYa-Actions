@@ -41,12 +41,15 @@ jobs:
 
       - name: Generate _quarto.yml config
         run: python .github/scripts/generate_quarto_yml.py
-
+      
       - name: Render Quarto Book
         run: quarto render
+
+      - name: List files for debugging
+        run: ls -R
 
       - name: Deploy book to GitHub Pages
         uses: peaceiris/actions-gh-pages@v4
         with:
-          github_token: ${{ secrets.FIGUREYA2ACTION }}
+          github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: _book
