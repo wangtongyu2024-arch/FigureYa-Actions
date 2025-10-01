@@ -37,10 +37,10 @@ jobs:
       - name: Convert .Rmd files to .qmd
         run: |
           pip install pyyaml
-          python convert_rmd_to_qmd.py
+          python .github/scripts/convert_rmd_to_qmd.py
 
       - name: Generate _quarto.yml config
-        run: python generate_quarto_yml.py
+        run: python .github/scripts/generate_quarto_yml.py
 
       - name: Render Quarto Book
         run: quarto render
