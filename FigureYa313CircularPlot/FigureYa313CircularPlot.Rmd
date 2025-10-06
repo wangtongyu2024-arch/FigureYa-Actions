@@ -15,6 +15,10 @@ If you use this code in your work or research, we kindly request that you cite o
 
 Xiaofan Lu, et al. (2025). FigureYa: A Standardized Visualization Framework for Enhancing Biomedical Data Interpretation and Research Efficiency. iMetaMed. https://doi.org/10.1002/imm3.70005
 
+If you use circlize in published research, please cite:
+
+Gu, Z. circlize implements and enhances circular visualization in R. Bioinformatics 2014.
+
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
@@ -55,7 +59,7 @@ We have previously created many scatter plots in vertical coordinate systems , u
 ```{r}
 source("install_dependencies.R")
 
-library(circlize)
+library(circlize) # 用于绘制环形图 # For creating circular plots
 
 # 显示英文报错信息
 # Show English error messages
