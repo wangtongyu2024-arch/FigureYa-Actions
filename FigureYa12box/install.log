@@ -1056,12 +1056,17 @@ configure: creating ./config.status
 config.status: creating src/Makefile
 ** libs
 make -f "/opt/R/4.5.1/lib/R/etc/Makeconf" -f Makefile init.o mapclip.o mapget.o smooth.o thin.o 
+<<<<<<< Updated upstream
 make[1]: Entering directory '/tmp/RtmpDqBEVD/R.INSTALL563b7d2f224/maps/src'
+=======
+make[1]: Entering directory '/tmp/RtmpoOr7Y0/R.INSTALL568459c39da4/maps/src'
+>>>>>>> Stashed changes
 gcc -std=gnu2x -I"/opt/R/4.5.1/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2  -c init.c -o init.o
 gcc -std=gnu2x -I"/opt/R/4.5.1/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2  -c mapclip.c -o mapclip.o
 gcc -std=gnu2x -I"/opt/R/4.5.1/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2  -c mapget.c -o mapget.o
 gcc -std=gnu2x -I"/opt/R/4.5.1/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2  -c smooth.c -o smooth.o
 gcc -std=gnu2x -I"/opt/R/4.5.1/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2  -c thin.c -o thin.o
+<<<<<<< Updated upstream
 make[1]: Leaving directory '/tmp/RtmpDqBEVD/R.INSTALL563b7d2f224/maps/src'
 "/opt/R/4.5.1/lib/R/bin/R" CMD SHLIB -o maps.so init.o mapclip.o mapget.o smooth.o thin.o 
 make[1]: Entering directory '/tmp/RtmpDqBEVD/R.INSTALL563b7d2f224/maps/src'
@@ -1082,6 +1087,28 @@ gawk -f ./convert.awk < world.line > world2.line
 make[1]: Leaving directory '/tmp/RtmpDqBEVD/R.INSTALL563b7d2f224/maps/src'
 make -f "/opt/R/4.5.1/lib/R/etc/Makeconf" -f Makefile county.L state.L usa.L nz.L world.L world2.L italy.L france.L state.vbm.L state.carto.L lakes.L
 make[1]: Entering directory '/tmp/RtmpDqBEVD/R.INSTALL563b7d2f224/maps/src'
+=======
+make[1]: Leaving directory '/tmp/RtmpoOr7Y0/R.INSTALL568459c39da4/maps/src'
+"/opt/R/4.5.1/lib/R/bin/R" CMD SHLIB -o maps.so init.o mapclip.o mapget.o smooth.o thin.o 
+make[1]: Entering directory '/tmp/RtmpoOr7Y0/R.INSTALL568459c39da4/maps/src'
+gcc -std=gnu2x -shared -L/opt/R/4.5.1/lib/R/lib -L/usr/local/lib -o maps.so init.o mapclip.o mapget.o smooth.o thin.o -L/opt/R/4.5.1/lib/R/lib -lR
+make[1]: Leaving directory '/tmp/RtmpoOr7Y0/R.INSTALL568459c39da4/maps/src'
+make -f "/opt/R/4.5.1/lib/R/etc/Makeconf" -f Makefile Gmake
+make[1]: Entering directory '/tmp/RtmpoOr7Y0/R.INSTALL568459c39da4/maps/src'
+gcc -std=gnu2x -g -O2  -I/usr/local/include -L/usr/local/lib  Gmake.c   -o Gmake
+make[1]: Leaving directory '/tmp/RtmpoOr7Y0/R.INSTALL568459c39da4/maps/src'
+make -f "/opt/R/4.5.1/lib/R/etc/Makeconf" -f Makefile Lmake
+make[1]: Entering directory '/tmp/RtmpoOr7Y0/R.INSTALL568459c39da4/maps/src'
+gcc -std=gnu2x -g -O2  -I/usr/local/include -L/usr/local/lib  Lmake.c   -o Lmake
+make[1]: Leaving directory '/tmp/RtmpoOr7Y0/R.INSTALL568459c39da4/maps/src'
+make -f "/opt/R/4.5.1/lib/R/etc/Makeconf" -f Makefile world2.line
+make[1]: Entering directory '/tmp/RtmpoOr7Y0/R.INSTALL568459c39da4/maps/src'
+Converting world to world2
+gawk -f ./convert.awk < world.line > world2.line
+make[1]: Leaving directory '/tmp/RtmpoOr7Y0/R.INSTALL568459c39da4/maps/src'
+make -f "/opt/R/4.5.1/lib/R/etc/Makeconf" -f Makefile county.L state.L usa.L nz.L world.L world2.L italy.L france.L state.vbm.L state.carto.L lakes.L
+make[1]: Entering directory '/tmp/RtmpoOr7Y0/R.INSTALL568459c39da4/maps/src'
+>>>>>>> Stashed changes
 ./Lmake 0 s b county.line county.linestats ../inst/mapdata/county.L
 ./Lmake 0 s b state.line state.linestats ../inst/mapdata/state.L
 ./Lmake 0 s b usa.line usa.linestats ../inst/mapdata/usa.L
@@ -1093,9 +1120,15 @@ make[1]: Entering directory '/tmp/RtmpDqBEVD/R.INSTALL563b7d2f224/maps/src'
 ./Lmake 0 p b state.vbm.line state.vbm.linestats ../inst/mapdata/state.vbm.L
 ./Lmake 0 p b state.carto.line state.carto.linestats ../inst/mapdata/state.carto.L
 ./Lmake 0 s b lakes.line lakes.linestats ../inst/mapdata/lakes.L
+<<<<<<< Updated upstream
 make[1]: Leaving directory '/tmp/RtmpDqBEVD/R.INSTALL563b7d2f224/maps/src'
 make -f "/opt/R/4.5.1/lib/R/etc/Makeconf" -f Makefile county.G state.G usa.G nz.G world.G world2.G italy.G france.G state.vbm.G state.carto.G lakes.G
 make[1]: Entering directory '/tmp/RtmpDqBEVD/R.INSTALL563b7d2f224/maps/src'
+=======
+make[1]: Leaving directory '/tmp/RtmpoOr7Y0/R.INSTALL568459c39da4/maps/src'
+make -f "/opt/R/4.5.1/lib/R/etc/Makeconf" -f Makefile county.G state.G usa.G nz.G world.G world2.G italy.G france.G state.vbm.G state.carto.G lakes.G
+make[1]: Entering directory '/tmp/RtmpoOr7Y0/R.INSTALL568459c39da4/maps/src'
+>>>>>>> Stashed changes
 ./Gmake b county.gon county.gonstats ../inst/mapdata/county.G ../inst/mapdata/county.L
 ./Gmake b state.gon state.gonstats ../inst/mapdata/state.G ../inst/mapdata/state.L
 ./Gmake b usa.gon usa.gonstats ../inst/mapdata/usa.G ../inst/mapdata/usa.L
@@ -1107,10 +1140,17 @@ make[1]: Entering directory '/tmp/RtmpDqBEVD/R.INSTALL563b7d2f224/maps/src'
 ./Gmake b state.vbm.gon state.vbm.gonstats ../inst/mapdata/state.vbm.G ../inst/mapdata/state.vbm.L
 ./Gmake b state.carto.gon state.carto.gonstats ../inst/mapdata/state.carto.G ../inst/mapdata/state.carto.L
 ./Gmake b lakes.gon lakes.gonstats ../inst/mapdata/lakes.G ../inst/mapdata/lakes.L
+<<<<<<< Updated upstream
 make[1]: Leaving directory '/tmp/RtmpDqBEVD/R.INSTALL563b7d2f224/maps/src'
 make -f "/opt/R/4.5.1/lib/R/etc/Makeconf" -f Makefile county.N state.N usa.N nz.N world.N world2.N italy.N france.N state.vbm.N state.carto.N lakes.N
 make[1]: Entering directory '/tmp/RtmpDqBEVD/R.INSTALL563b7d2f224/maps/src'
 make[1]: Leaving directory '/tmp/RtmpDqBEVD/R.INSTALL563b7d2f224/maps/src'
+=======
+make[1]: Leaving directory '/tmp/RtmpoOr7Y0/R.INSTALL568459c39da4/maps/src'
+make -f "/opt/R/4.5.1/lib/R/etc/Makeconf" -f Makefile county.N state.N usa.N nz.N world.N world2.N italy.N france.N state.vbm.N state.carto.N lakes.N
+make[1]: Entering directory '/tmp/RtmpoOr7Y0/R.INSTALL568459c39da4/maps/src'
+make[1]: Leaving directory '/tmp/RtmpoOr7Y0/R.INSTALL568459c39da4/maps/src'
+>>>>>>> Stashed changes
 installing to /home/runner/work/_temp/Library/00LOCK-maps/00new/maps/libs
 ** R
 ** data
@@ -1929,7 +1969,11 @@ installing to /home/runner/work/_temp/Library/00LOCK-vdiffr/00new/vdiffr/libs
 * DONE (vdiffr)
 
 The downloaded source packages are in
+<<<<<<< Updated upstream
 	‘/tmp/RtmpCpPU3H/downloaded_packages’
+=======
+	‘/tmp/RtmpFoJeIW/downloaded_packages’
+>>>>>>> Stashed changes
 Successfully installed: cowplot 
 Package already installed: ggplot2 
 Package already installed: tidyr 
