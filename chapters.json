@@ -1064,6 +1064,14 @@
     "thumb": "gallery_compress/FigureYa194.webp"
   },
   {
+    "id": "main_FigureYa196Plus_PanPie_FigureYa196Plus_PanPie",
+    "title": "FigureYa196Plus_PanPie/FigureYa196Plus_PanPie.html",
+    "html": "FigureYa196Plus_PanPie/FigureYa196Plus_PanPie.html",
+    "text": "texts/main_FigureYa196Plus_PanPie_FigureYa196Plus_PanPie.txt",
+    "folder": "FigureYa196Plus_PanPie",
+    "thumb": "gallery_compress/FigureYa196.webp"
+  },
+  {
     "id": "main_FigureYa196PanPie_FigureYa196PanPie",
     "title": "FigureYa196PanPie/FigureYa196PanPie.html",
     "html": "FigureYa196PanPie/FigureYa196PanPie.html",
@@ -1094,6 +1102,14 @@
     "text": "texts/main_FigureYa199crosslink_FigureYa199crosslink.txt",
     "folder": "FigureYa199crosslink",
     "thumb": "gallery_compress/FigureYa199.webp"
+  },
+  {
+    "id": "main_FigureYa200pairwiseAUC_FigureYa200pairwiseAUC",
+    "title": "FigureYa200pairwiseAUC/FigureYa200pairwiseAUC.html",
+    "html": "FigureYa200pairwiseAUC/FigureYa200pairwiseAUC.html",
+    "text": "texts/main_FigureYa200pairwiseAUC_FigureYa200pairwiseAUC.txt",
+    "folder": "FigureYa200pairwiseAUC",
+    "thumb": "gallery_compress/FigureYa200.webp"
   },
   {
     "id": "main_FigureYa201ClusterCorrelation_FigureYa201ClusterCorrelation",
@@ -1174,6 +1190,14 @@
     "text": "texts/main_FigureYa219GMM_FigureYa219GMM.txt",
     "folder": "FigureYa219GMM",
     "thumb": "gallery_compress/FigureYa219.webp"
+  },
+  {
+    "id": "main_FigureYa220repeatedLasso_FigureYa220repeatedLasso",
+    "title": "FigureYa220repeatedLasso/FigureYa220repeatedLasso.html",
+    "html": "FigureYa220repeatedLasso/FigureYa220repeatedLasso.html",
+    "text": "texts/main_FigureYa220repeatedLasso_FigureYa220repeatedLasso.txt",
+    "folder": "FigureYa220repeatedLasso",
+    "thumb": "gallery_compress/FigureYa220.webp"
   },
   {
     "id": "main_FigureYa225GiViTl_FigureYa225GiViTl",
@@ -1270,6 +1294,14 @@
     "text": "texts/main_FigureYa248MutLandscape_FigureYa248MutLandscape.txt",
     "folder": "FigureYa248MutLandscape",
     "thumb": "gallery_compress/FigureYa248.webp"
+  },
+  {
+    "id": "main_FigureYa249Regulon_FigureYa249Regulon",
+    "title": "FigureYa249Regulon/FigureYa249Regulon.html",
+    "html": "FigureYa249Regulon/FigureYa249Regulon.html",
+    "text": "texts/main_FigureYa249Regulon_FigureYa249Regulon.txt",
+    "folder": "FigureYa249Regulon",
+    "thumb": "gallery_compress/FigureYa249.webp"
   },
   {
     "id": "main_FigureYa250ImmGenePair_FigureYa250ImmGenePair",
