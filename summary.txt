@@ -28,7 +28,7 @@ RMD Render Summary
 [SKIPPED] - ./FigureYa219GMM/FigureYa219GMM.Rmd (Not listed in auto_Knit_online.txt)
 [SKIPPED] - ./FigureYa159LR_RF_V2/FigureYa159LR_RF_V2.Rmd (Not listed in auto_Knit_online.txt)
 [SKIPPED] - ./FigureYa198SignatureCombinationV2/FigureYa198SignatureCombinationV2.Rmd (Not listed in auto_Knit_online.txt)
-[SUCCESS] - ./FigureYa12box/FigureYa12box.Rmd
+[SKIPPED] - ./FigureYa12box/FigureYa12box.Rmd (Not listed in auto_Knit_online.txt)
 [SKIPPED] - ./FigureYa251NPHSurv/FigureYa251NPHSurv.Rmd (Not listed in auto_Knit_online.txt)
 [SKIPPED] - ./FigureYa31lasso_update/FigureYa31lasso_update.Rmd (Not listed in auto_Knit_online.txt)
 [SKIPPED] - ./FigureYa7PSM/FigureYa7PSM.Rmd (Not listed in auto_Knit_online.txt)
@@ -186,7 +186,7 @@ RMD Render Summary
 [SKIPPED] - ./FigureYa201ClusterCorrelation/FigureYa201ClusterCorrelation.Rmd (Not listed in auto_Knit_online.txt)
 [SKIPPED] - ./FigureYa119Multiclasslimma/FigureYa119Multiclasslimma.Rmd (Not listed in auto_Knit_online.txt)
 [SKIPPED] - ./FigureYa65SVM/FigureYa65SVM.Rmd (Not listed in auto_Knit_online.txt)
-[SKIPPED] - ./FigureYa106immunotherapy/FigureYa106immunotherapy.Rmd (Not listed in auto_Knit_online.txt)
+[SUCCESS] - ./FigureYa106immunotherapy/FigureYa106immunotherapy.Rmd
 [SKIPPED] - ./FigureYa81immune_network/FigureYa81immune_network.Rmd (Not listed in auto_Knit_online.txt)
 [SKIPPED] - ./FigureYa115cofactor/FigureYa115cofactor.Rmd (Not listed in auto_Knit_online.txt)
 [SKIPPED] - ./FigureYa18oncoplot_update/FigureYa18oncoplot_update.Rmd (Not listed in auto_Knit_online.txt)

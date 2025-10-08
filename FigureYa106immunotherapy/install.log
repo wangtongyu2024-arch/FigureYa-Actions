@@ -2,7 +2,132 @@ Starting R package installation...
 ===========================================
 
 Installing CRAN packages...
-Package already installed: pheatmap 
+Installing CRAN package: pheatmap 
+Installing package into ‘/home/runner/work/_temp/Library’
+(as ‘lib’ is unspecified)
+also installing the dependencies ‘farver’, ‘labeling’, ‘viridisLite’, ‘RColorBrewer’, ‘scales’, ‘gtable’
+
+trying URL 'https://cloud.r-project.org/src/contrib/farver_2.1.2.tar.gz'
+trying URL 'https://cloud.r-project.org/src/contrib/labeling_0.4.3.tar.gz'
+trying URL 'https://cloud.r-project.org/src/contrib/viridisLite_0.4.2.tar.gz'
+trying URL 'https://cloud.r-project.org/src/contrib/RColorBrewer_1.1-3.tar.gz'
+trying URL 'https://cloud.r-project.org/src/contrib/scales_1.4.0.tar.gz'
+trying URL 'https://cloud.r-project.org/src/contrib/gtable_0.3.6.tar.gz'
+trying URL 'https://cloud.r-project.org/src/contrib/pheatmap_1.0.13.tar.gz'
+* installing *source* package ‘farver’ ...
+** this is package ‘farver’ version ‘2.1.2’
+** package ‘farver’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+using C++ compiler: ‘g++ (Ubuntu 13.3.0-6ubuntu2~24.04) 13.3.0’
+g++ -std=gnu++17 -I"/opt/R/4.5.1/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2   -c ColorSpace.cpp -o ColorSpace.o
+g++ -std=gnu++17 -I"/opt/R/4.5.1/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2   -c Comparison.cpp -o Comparison.o
+g++ -std=gnu++17 -I"/opt/R/4.5.1/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2   -c Conversion.cpp -o Conversion.o
+g++ -std=gnu++17 -I"/opt/R/4.5.1/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2   -c encode.cpp -o encode.o
+g++ -std=gnu++17 -I"/opt/R/4.5.1/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2   -c farver.cpp -o farver.o
+g++ -std=gnu++17 -I"/opt/R/4.5.1/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2   -c init.cpp -o init.o
+g++ -std=gnu++17 -shared -L/opt/R/4.5.1/lib/R/lib -L/usr/local/lib -o farver.so ColorSpace.o Comparison.o Conversion.o encode.o farver.o init.o -L/opt/R/4.5.1/lib/R/lib -lR
+installing to /home/runner/work/_temp/Library/00LOCK-farver/00new/farver/libs
+** R
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+*** copying figures
+** building package indices
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* DONE (farver)
+* installing *source* package ‘labeling’ ...
+** this is package ‘labeling’ version ‘0.4.3’
+** package ‘labeling’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* DONE (labeling)
+* installing *source* package ‘viridisLite’ ...
+** this is package ‘viridisLite’ version ‘0.4.2’
+** package ‘viridisLite’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+*** copying figures
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* DONE (viridisLite)
+* installing *source* package ‘RColorBrewer’ ...
+** this is package ‘RColorBrewer’ version ‘1.1-3’
+** package ‘RColorBrewer’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* DONE (RColorBrewer)
+* installing *source* package ‘gtable’ ...
+** this is package ‘gtable’ version ‘0.3.6’
+** package ‘gtable’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+*** copying figures
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* DONE (gtable)
+* installing *source* package ‘scales’ ...
+** this is package ‘scales’ version ‘1.4.0’
+** package ‘scales’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+*** copying figures
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* DONE (scales)
+* installing *source* package ‘pheatmap’ ...
+** this is package ‘pheatmap’ version ‘1.0.13’
+** package ‘pheatmap’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* DONE (pheatmap)
+
+The downloaded source packages are in
+	‘/tmp/Rtmpt5Yo2Z/downloaded_packages’
+Successfully installed: pheatmap 
 
 ===========================================
 Package installation completed!
